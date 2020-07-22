@@ -1,4 +1,4 @@
-package paint;
+package chapter03.paint;
 
 public class MainApp {
 
