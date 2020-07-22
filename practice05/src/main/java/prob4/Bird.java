@@ -1,6 +1,6 @@
-package prob3;
+package prob4;
 
-public abstract class Bird {
+public abstract class Bird implements Soundable {
 	protected String name;
 
 	public String getName() {
