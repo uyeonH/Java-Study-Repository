@@ -21,16 +21,20 @@ public class MainApp {
 		
 		System.out.println("//========================");
 		Rect rect = new Rect();
-		drawShape(rect);
+		//drawShape(rect);
+		draw(rect);
 		
 		System.out.println("//========================");
 		Triangle triangle = new Triangle();
-		drawShape(triangle);
+		//drawShape(triangle);
+		draw(triangle);
 		
 		System.out.println("//========================");
 		Circle circle = new Circle();
-		drawShape(circle);
-		
+		//drawShape(circle);
+		draw(circle);
+	
+		draw(new GraphicText("HelloWorld"));
 	}
 
 	public static void drawPoint(Point pt) {
@@ -38,6 +42,9 @@ public class MainApp {
 	}
 	public static void drawShape(Shape shape) {
 		shape.draw();
+	}
+	public static void draw(Drawable drawable) {
+		drawable.draw();
 	}
 	
 }
