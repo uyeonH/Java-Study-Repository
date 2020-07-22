@@ -29,7 +29,7 @@ public class Point implements Drawable{
 		if (visible) {
 			show();
 		}else {
-			System.out.println("지웠습니다.")
+			System.out.println("지웠습니다.");
 		}
 		System.out.println("점[x=" + x + ",y=" + y + "]을 그렸습니다.");
 	}
