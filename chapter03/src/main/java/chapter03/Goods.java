@@ -7,10 +7,14 @@ public class Goods {
 	
 	public static int countofGoods = 0;
 	
+	//생성자, 작성하지 않았을 경우 자동 생성
+	//주로 변수를 초기화하는 용도
 	public Goods() {
 		countofGoods++; 
 	}
-	
+	public Goods(String name) {
+		this.name=name;
+	}
 	public String getName() {
 		return name;
 	}
