@@ -36,6 +36,6 @@ public class Point implements Drawable{
 	@Override
 	public void draw() {
 		// TODO Auto-generated method stub
-		show(true);
+		show(true);   
 	}
 }
