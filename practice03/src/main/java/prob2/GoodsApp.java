@@ -8,10 +8,14 @@ public class GoodsApp {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-
+		
 		Goods[] goods = new Goods[COUNT_GOODS];
-
-		System.out.print("prob2 test");
+		String str;
+		str=scanner.nextLine();
+		goods[0]=str.
+		goods[1]=(int)str.charAt(1);
+		
+		
 		scanner.close();
 	}
 }

@@ -9,12 +9,24 @@ public class Goods {
 	
 	//생성자, 작성하지 않았을 경우 자동 생성
 	//주로 변수를 초기화하는 용도
+	/*
 	public Goods() {
 		countofGoods++; 
 	}
 	public Goods(String name) {
+		countofGoods++; 
 		this.name=name;
+	}*/
+	
+	//생성자 오버로딩, 다형성
+	public Goods(String name,int price, int countStock,int countSold) {
+		countofGoods++; 
+		this.name=name;
+		this.price=price;
+		this.countStock=countStock;
+		this.countSold=countSold;
 	}
+	
 	public String getName() {
 		return name;
 	}
