@@ -1,4 +1,4 @@
-package com.bit2020.paint;
+package paint;
 
 public class MainApp {
 

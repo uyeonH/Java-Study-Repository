@@ -1,5 +1,5 @@
 package bookshop;
 
-public class OnlineBook {
+public class OnlineBook extends Book{
 
 }

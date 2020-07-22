@@ -1,4 +1,4 @@
-package kr.ac.gachon.park;
+package park;
 
 public class TestParkSystem03 {
 

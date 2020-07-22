@@ -1,4 +1,4 @@
-package kr.ac.gachon.park;
+package park;
 
 public class ParkSystem02 {
 	public static void park(Car c) {

@@ -1,5 +1,4 @@
-package kr.ac.gachon.park;
-
+package park;
 public class SportsCar extends Car{
 	@Override
 	public void park() {
