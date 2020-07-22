@@ -10,11 +10,34 @@ public class MainApp {
 		point1.setY(200);
 		
 		drawPoint(point1);
-		
 		drawPoint(point2);
+		
+		ColorPoint point3=new ColorPoint();
+		point3.setX(40);
+		point3.setY(100);
+		
+		point3.setColor("yellow");
+		drawPoint(point3);
+		
+		System.out.println("//========================");
+		Rect rect = new Rect();
+		drawShape(rect);
+		
+		System.out.println("//========================");
+		Triangle triangle = new Triangle();
+		drawShape(triangle);
+		
+		System.out.println("//========================");
+		Circle circle = new Circle();
+		drawShape(circle);
+		
 	}
 
 	public static void drawPoint(Point pt) {
 		pt.show();
 	}
+	public static void drawShape(Shape shape) {
+		shape.draw();
+	}
+	
 }
